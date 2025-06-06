@@ -1,1 +1,49 @@
+<!-- index --!>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EduCourses - Home</title>
+  <style>
+    body {font-family: Arial; margin: 0; background: #996b7e;}
+    header {background: #b10a7f; padding: 20px; color: white; text-align: center;}
+    nav {background: #333; text-align: center;}
+    nav a {color: white; padding: 15px; display: inline-block; text-decoration: none;}
+    nav a:hover {background: #b10a7f;}
+    .content {padding: 20px;}
+    .course {background: rgb(255, 255, 255); padding: 15px; margin: 10px 0; border-radius: 5px; box-shadow: 0 2px 4px #aaa;}
+    footer {text-align: center; background: #b10a7f; color: white; padding: 15px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to EduCourses</h1>
+  <p>Your online learning platform</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="register.html">Register</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="content">
+  <h2>Available Courses</h2>
+  <div class="course">
+    <h3>Web Development</h3>
+    <p>Learn HTML, CSS, JavaScript, and build websites from scratch.</p>
+  </div>
+  <div class="course">
+    <h3>Python for Data Science</h3>
+    <p>Use Python, Pandas, and ML techniques for real-world projects.</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 EduCourses. All Rights Reserved.
+</footer>
+
+</body>
+</html>
 
